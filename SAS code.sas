@@ -160,35 +160,35 @@ run;
 PROC EXPORT DATA = Delay_per_Airline
          OUTFILE = "C:\Users\jmotyl\Documents\GitHub\group assignment\DelayPerAirlines.csv"
             DBMS = DLM REPLACE ;
-   DELIMITER = "," ; /* séparator */
+   DELIMITER = "," ; /* sÃ©parator */
 run;
 PROC EXPORT DATA = Dep_Delay_per_Airport
          OUTFILE = "C:\Users\jmotyl\Documents\GitHub\group assignment\DepDelayPerAirport.CSV"
             DBMS = DLM REPLACE ;
-   DELIMITER = "," ; /* séparator */
+   DELIMITER = "," ; /* sÃ©parator */
 run;
 PROC EXPORT DATA = Arr_Delay_per_Airport
          OUTFILE = "C:\Users\jmotyl\Documents\GitHub\group assignment\ArrDelayPerAirport.CSV"
             DBMS = DLM REPLACE ; ;
-   DELIMITER = "," ; /* séparateur tabulation */
+   DELIMITER = "," ; /* sÃ©parateur tabulation */
 run;
 
 PROC EXPORT DATA = Plane_Type_Delays_Per_Airline
          OUTFILE = "C:\Users\jmotyl\Documents\GitHub\group assignment\DelaysPerPlaneTypePerAirlines.CSV"
             DBMS = DLM REPLACE ; ;
-   DELIMITER = "," ; /* séparator */
+   DELIMITER = "," ; /* sÃ©parator */
 run;
 
 PROC EXPORT DATA = Delay_Per_TemperaturePRECISE
          OUTFILE = "C:\Users\jmotyl\Documents\GitHub\group assignment\DelaysPerPreciseTemperature.CSV"
             DBMS = DLM REPLACE ; ;
-   DELIMITER = "," ; /* séparator */
+   DELIMITER = "," ; /* sÃ©parator */
 run;
 
 PROC EXPORT DATA = DepDelay_per_Temp_and_Airport
          OUTFILE = "C:\Users\jmotyl\Documents\GitHub\group assignment\DelaysPerTemperature&Airport.CSV"
             DBMS = DLM REPLACE ;
-   DELIMITER = "," ; /* séparator */
+   DELIMITER = "," ; /* sÃ©parator */
 run;
 
 /* */
@@ -476,7 +476,7 @@ quit;
 PROC EXPORT DATA = HumidityEffects
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\HumidityEffects"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run;
 
 /*Ranges of Wind Speeds and Delay*/
@@ -508,7 +508,7 @@ quit;
 PROC EXPORT DATA = WindSpeedEffects
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\WindSpeedEffects"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run;
 
 /*Ranges of Pressure and Delay*/
@@ -540,7 +540,7 @@ quit;
 PROC EXPORT DATA = PressureEffects
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\PressureEffects"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run;
 
 
@@ -573,7 +573,7 @@ quit;
 PROC EXPORT DATA = VisibilityEffects
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\VisibilityEffects"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run;
 
 
@@ -607,7 +607,7 @@ quit;
 PROC EXPORT DATA = DewpointEffects
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\DewpointEffects"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run;
 
 /*Ranges of WindDirection and Delay*/
@@ -638,7 +638,7 @@ quit;
 PROC EXPORT DATA = WindDirectionEffects
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\WindDirectionEffects"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 
@@ -672,7 +672,7 @@ quit;
 PROC EXPORT DATA = WindGustEffects
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\WindGustEffects"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 
@@ -699,7 +699,7 @@ quit;
 PROC EXPORT DATA = PrecipitationEffects
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\PrecipitationEffects"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 /*Rounded Humidities and Delay*/
@@ -719,7 +719,7 @@ quit;
 PROC EXPORT DATA = DifferentHumid
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\DifferentHumid"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 /*Rounded Pressure and Delay*/
 
@@ -738,7 +738,7 @@ quit;
 PROC EXPORT DATA = DifferentPressure
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\DifferentPressure"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 /*Rounded Wind Speeds and Delay*/
@@ -758,7 +758,7 @@ quit;
 PROC EXPORT DATA = DifferentWindSpeed
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\DifferentWindSpeed"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 
@@ -776,7 +776,7 @@ quit;
 PROC EXPORT DATA = ZZZ
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\ZZZ"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 
@@ -795,7 +795,7 @@ quit;
 PROC EXPORT DATA = ZZZ1
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\ZZZ1"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 
@@ -814,7 +814,7 @@ quit;
 PROC EXPORT DATA = ZZZ2
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\ZZZ2"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 
@@ -835,7 +835,7 @@ quit;
 PROC EXPORT DATA = ZZZ3
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\ZZZ3"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 
@@ -854,7 +854,7 @@ quit;
 PROC EXPORT DATA = ZZZ4
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\ZZZ4"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 
@@ -873,7 +873,7 @@ quit;
 PROC EXPORT DATA = ZZZ5
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\ZZZ5"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 /*Select All of the Pressure and Departure Delay*/
@@ -891,7 +891,7 @@ quit;
 PROC EXPORT DATA = ZZZ6
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\ZZZ6"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
 /*Select All of the Pressure and Departure Delay*/
@@ -909,6 +909,6 @@ quit;
 PROC EXPORT DATA = ZZZ7
          OUTFILE = "C:\Users\xzong\Desktop\MBD\BusinessReportingTools\Assignment\ZZZ7"
             DBMS = CSV REPLACE ;
-   DELIMITER = "09"x ; /* séparateur tabulation */
+   DELIMITER = "09"x ; /* sÃ©parateur tabulation */
 run; 
 
